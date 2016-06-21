@@ -1,7 +1,8 @@
 # wechat mp getway
-让 Meteor 的 oauth 项目支持转发模式，配合 [https://github.com/romejiang/wechat-mp-getway](这个项目wechat-mp-getway)可以方便的调试微信网页授权回调。
+让 Meteor 中 oauth 相关的包支持跳转模式，配合[这个项目wechat-mp-getway](https://github.com/romejiang/wechat-mp-getway)可以方便的调试微信网页授权回调。（因为微信网页授权回调地址必须绑定到一个ICP认证过的域名商，所以调试和实际应用上线都很麻烦，这个组件就是为了解决这个问题而存在的）
 
 ## Installation
+
 `meteor add romejiang:oauth-getway`
 
 ## guide
